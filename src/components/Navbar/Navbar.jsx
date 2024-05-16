@@ -29,7 +29,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </div>
       <div className="navbar-open-icon">
-        <MenuIcon onClick={handleClick} />
+        <MenuIcon onClick={handleClick} style={{ color:"white" }} />
       </div>
       <ul className={expandbar ? "navbar-list-mobile" : "navbar-list"}>
         <li>About</li>
