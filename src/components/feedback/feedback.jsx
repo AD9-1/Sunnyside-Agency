@@ -18,7 +18,7 @@ const feedback = () => {
             needs were met and deadlines were always hit.
           </p>
           <h4 className="feedback__cards--name">Emily R.</h4>
-          <p> Marketing Director </p>
+          <p className="feedback__cards--designation"> Marketing Director </p>
         </div>
         <div className="feedback__cards--2">
           <img className="feedback__cards--image" src={Thomasimage} alt="" />
@@ -27,7 +27,7 @@ const feedback = () => {
             brand's success made it a satisfying and enjoyable experience.
           </p>
           <h4 className="feedback__cards--name">Thomas S.</h4>
-          <p> Chief Operating Officer </p>
+          <p className="feedback__cards--designation"> Chief Operating Officer </p>
         </div>
         <div className="feedback__cards--3">
           <img className="feedback__cards--image" src={Jennieimage} alt="" />
@@ -36,7 +36,7 @@ const feedback = () => {
             with Sunnyside. Highly recommended!
           </p>
           <h4 className="feedback__cards--name">Jennie F.</h4>
-          <p> Business Owner </p>
+          <p className="feedback__cards--designation"> Business Owner </p>
         </div>
       </div>
     </div>
