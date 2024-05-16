@@ -1,0 +1,14 @@
+.background {
+  background: url("./assets/desktop/image-header.jpg");
+  height: 30rem;
+  background-size: cover;
+  background-position: center center;
+  @media (max-width: 375px) {
+    background: url("./assets/mobile/image-header.jpg");
+    background-size: cover;
+    background-position: center center;
+    //height:90%;
+  }
+}
+
+
