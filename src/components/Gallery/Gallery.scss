@@ -1,0 +1,15 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/global.scss" as *;
+
+.Gallery {
+  display: flex;
+    height: 70vh;
+    // width: 100vw;
+
+    &__images{
+        height: 100%;
+        width: 100%;
+      
+    }
+}
