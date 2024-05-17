@@ -8,12 +8,15 @@ import Imagesugarcubes from "../../assets/desktop/image-gallery-sugarcubes.jpg";
 const Gallery = () => {
   return (
     <div className="Gallery">
+      <div className="Gallery__pics">
       <div>
         <img className="Gallery__images" src={Imagebottles} alt="milkbottles" />
       </div>
       <div>
         <img className="Gallery__images" src={Imageorange} alt="oranges" />
       </div>
+      </div>
+      <div className="Gallery__pics">
       <div>
         <img className="Gallery__images" src={Imagecone} alt="icecream cone" />
       </div>
@@ -23,6 +26,7 @@ const Gallery = () => {
           src={Imagesugarcubes}
           alt="sugarcubes"
         />
+      </div>
       </div>
     </div>
   );
