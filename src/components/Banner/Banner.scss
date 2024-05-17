@@ -80,10 +80,14 @@
         font-family: Fraunces-Bold;
       }
       .statement1:hover {
-        text-decoration: underline 10px solid $yellow;
+        text-decoration: underline 5px solid $yellow;
+
+        transition: 1s;
       }
       .statement2:hover {
-        text-decoration: underline 10px solid $soft-red;
+        transition: 1s;
+
+        text-decoration: underline 5px solid $soft-red;
       }
     }
   }

@@ -26,6 +26,11 @@
       padding: 2rem;
       font-family: Barlow;
       color: $primary-cyan;
+      &:hover {
+        color: $white;
+        transition: 2s;
+        font-size: 1.5rem;
+      }
     }
   }
   &__icons {
@@ -35,6 +40,11 @@
     &--list {
       padding: 0 2rem 2rem 0;
       fill: $primary-cyan;
+      &:hover {
+        color: $white;
+        transition: 2s;
+        transform: scale(1.5);
+      }
     }
   }
 }

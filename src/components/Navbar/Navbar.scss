@@ -16,7 +16,6 @@
   }
   &-logo {
     flex: 1;
-  
   }
   &-list {
     display: flex;
@@ -29,8 +28,11 @@
       font-family: Barlow;
       &:hover {
         background-color: $white;
+        opacity: 0.5;
+        padding: 2rem;
         text-transform: uppercase;
-        border-radius: 1rem;
+        transition: 2s;
+        border-radius: 2rem;
         color: $dark-blue;
         font-family: Fraunces;
       }
