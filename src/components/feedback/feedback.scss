@@ -14,6 +14,10 @@
     font-family: "Fraunces-Bold";
     letter-spacing: 0.6rem;
     padding: 12rem 0 5rem 0;
+
+    @mixin mobile {
+      padding: 5rem 0;
+    }
   }
 
   &__cards {
