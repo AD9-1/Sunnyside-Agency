@@ -8,6 +8,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include mobile {
+    margin-bottom: 2rem;
+  }
 
   &__heading {
     color: $light-gray;
@@ -15,8 +18,10 @@
     letter-spacing: 0.6rem;
     padding: 12rem 0 5rem 0;
 
-    @mixin mobile {
-      padding: 5rem 0;
+    @include mobile {
+      padding: 5rem 0 1rem 0;
+      font-size: 0.6rem;
+      letter-spacing: 0.36rem;
     }
   }
 
@@ -24,6 +29,11 @@
     display: flex;
     justify-content: center;
     margin: 1rem 5rem 1rem 5rem;
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+    }
 
     &--1,
     &--2,
@@ -33,11 +43,20 @@
       justify-content: center;
       align-items: center;
       padding: 0 1rem 0 1rem;
+
+      @include mobile {
+        margin-top: 2rem;
+      }
     }
 
     &--text {
       color: $dark-gray;
+      font-family: Barlow;
       margin-top: 2rem;
+
+      @include mobile {
+        font-size: 0.9rem;
+      }
     }
 
     &--image {
@@ -49,10 +68,16 @@
 
     &--name {
       margin-top: 3.5rem;
+      margin-bottom: 0;
+
+      @include mobile {
+        margin-top: 1rem;
+      }
     }
     &--designation {
       color: $light-gray;
       font-size: 0.8rem;
+      margin-top: 0.2rem;
     }
   }
 }
