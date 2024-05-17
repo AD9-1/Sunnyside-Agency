@@ -38,7 +38,7 @@
       }
     }
   }
-  @media (max-width: 375px) {
+ @include mobile {
     &-list {
       display: none;
 

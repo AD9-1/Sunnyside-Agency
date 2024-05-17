@@ -13,7 +13,8 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 30rem;
+      height:30rem;
+     
     }
     &-image1 {
       background-image: url("../../assets/desktop/image-transform.jpg");
@@ -92,7 +93,7 @@
     }
   }
 }
-@media (max-width:375px) {
+@include mobile {
   .Banner {
     &-section {
       display: flex;
