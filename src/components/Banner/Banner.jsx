@@ -4,7 +4,7 @@ import "./Banner.scss";
 const Banner = () => {
   return (
     <div className="Banner">
-      <div className="Banner-section">
+      <div className="Banner-section second">
         <div className="Banner-section-statement">
           <h2>Transform Your Brand</h2>
           <p>
@@ -12,12 +12,12 @@ const Banner = () => {
             go fast.Engage your clients through compelling visuals that do most
             of the marketing for you.
           </p>
-          <h3>Learn More</h3>
+          <h3 className="statement1">Learn More</h3>
         </div>
         <div className="Banner-section-image1"></div>
       </div>
 
-      <div className="Banner-section second">
+      <div className="Banner-section ">
         <div className="Banner-section-image2"></div>
         <div className="Banner-section-statement">
           <h2>Stand out to the right audience</h2>
@@ -26,16 +26,16 @@ const Banner = () => {
             photographers,videographers and copywriters,we'll build and extend
             your brand in digital places.
           </p>
-          <h3>Learn More</h3>
+          <h3 className="statement2">Learn More</h3>
         </div>
       </div>
-      <div className="Banner-section">
+      <div className="Banner-section second">
         <div className="Banner-section-image3">
           <div className="Banner-section-image3-statement">
             <h2>Graphic Design</h2>
             <p>
-              Great design makes you memorable we deliver,artwork that
-              underscores your brand message and catures potential client;s
+              Great design makes you memorable.We deliver, artwork that
+              underscores your brand message and catures potential client's
               attention
             </p>
           </div>

@@ -1,3 +1,6 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/global.scss" as *;
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -20,11 +23,17 @@
     justify-content: space-between;
     li {
       padding: .5rem;
+      color:$white;
+      font-family: Barlow;
+      &:hover{
+        background-color: $white;
+        text-transform: uppercase;
+        border-radius: 1rem;
+        color:$dark-blue;
+        font-family: Fraunces;
+      }
     }
-    .contact {
-      background-color: white;
-      border-radius: 1rem;
-    }
+   
   }
   @media (max-width: 375px) {
     &-list {
@@ -45,11 +54,15 @@
         align-items: center;
         li {
           padding: .5rem;
+          &:hover{
+            background-color: $yellow;
+            text-transform: uppercase;
+            border-radius: 1rem;
+            color:$dark-blue;
+            font-family: Fraunces;
+          }
         }
-        .contact {
-          border-radius: 1rem;
-          background-color: yellow;
-        }
+        
       }
     }
     &-open-icon {

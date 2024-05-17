@@ -1,54 +1,88 @@
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/global.scss" as *;
 .Banner {
   &-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    &-image1 {
-      background-image: url("../../assets/desktop/image-transform.jpg");
+    &-image1,
+    &-image2,
+    &-image3,
+    &-image4 {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 25rem;
+      height: 30rem;
+    }
+    &-image1 {
+      background-image: url("../../assets/desktop/image-transform.jpg");
+    }
+
+    &-image2 {
+      background-image: url("../../assets/desktop/image-stand-out.jpg");
+    }
+    &-image3 {
+      background-image: url("../../assets/desktop/image-graphic-design.jpg");
+
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      &-statement {
+        text-align: center;
+        width: 60%;
+        padding-bottom: 3rem;
+        h2 {
+          font-family: Fraunces-Bold;
+          color: $primary-cyan;
+        }
+        p {
+          font-family: Barlow;
+          color: $primary-cyan;
+        }
+      }
+    }
+    &-image4 {
+      background-image: url("../../assets/desktop/image-photography.jpg");
+
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      &-statement {
+        text-align: center;
+        width: 60%;
+        padding-bottom: 3rem;
+        h2 {
+          font-family: Fraunces-Bold;
+          color: $dark-blue;
+        }
+        p {
+          font-family: Barlow;
+          color: $dark-blue;
+        }
+      }
     }
     &-statement {
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 2rem;
-      padding: 0rem 3rem;
-    }
-    &-image2 {
-      background-image: url("../../assets/desktop/image-stand-out.jpg");
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 25rem;
-    }
-    &-image3 {
-      background-image: url("../../assets/desktop/image-graphic-design.jpg");
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 25rem;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-      &-statement {
-        text-align: center;
-        width: 60%;
+      padding: 4rem 7rem;
+      h2 {
+        font-family: Fraunces-Bold;
+        font-size: 40px;
       }
-    }
-    &-image4 {
-      background-image: url("../../assets/desktop/image-photography.jpg");
-      background-position: center;
-      background-size: cover;
-      height: 25rem;
-      background-repeat: no-repeat;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-      &-statement {
-        text-align: center;
-        width: 60%;
+      p {
+        font-family: Barlow;
+        color: $light-gray;
+      }
+      h3 {
+        font-family: Fraunces-Bold;
+      }
+      .statement1:hover {
+        text-decoration: underline 10px solid $yellow;
+      }
+      .statement2:hover {
+        text-decoration: underline 10px solid $soft-red;
       }
     }
   }
@@ -60,11 +94,28 @@
       flex-direction: column;
 
       &-statement {
-        padding: 3rem 0rem;
+        padding: 3rem 1rem;
         text-align: center;
         margin: auto;
-        width: 70%;
         gap: 1rem;
+        h2 {
+          font-family: Fraunces-Bold;
+          font-size: 36px;
+        }
+        p {
+          font-family: Barlow;
+          color: $light-gray;
+        }
+        h3 {
+          font-family: Fraunces-Bold;
+        }
+      }
+      &-image3,
+      &-image4 {
+        &-statement {
+          width: auto;
+          padding: 0rem 1rem 1rem;
+        }
       }
     }
     .second {

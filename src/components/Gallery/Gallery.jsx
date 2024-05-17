@@ -10,10 +10,10 @@ const Gallery = () => {
   return (
     <div className='Gallery'>
         
-          <img className='Gallery__images'src= {Imagebottles} alt='milkbottles' />
-          <img className='Gallery__images'src= {Imageorange} alt='oranges' />
-          <img className='Gallery__images'src= {Imagecone} alt='icecream cone' />
-          <img className='Gallery__images'src= {Imagesugarcubes} alt='sugarcubes' />
+        <div> <img className='Gallery__images'src= {Imagebottles} alt='milkbottles' /></div>
+        <div><img className='Gallery__images'src= {Imageorange} alt='oranges' /></div>  
+         <div><img className='Gallery__images'src= {Imagecone} alt='icecream cone' /></div> 
+         <div><img className='Gallery__images'src= {Imagesugarcubes} alt='sugarcubes' /></div> 
         
     </div>
   )
