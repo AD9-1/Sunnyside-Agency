@@ -6,6 +6,7 @@ import "../src/styles/global.scss";
 import Banner from "./components/Banner/Banner";
 import Feedback from "./components/Feedback/Feedback";
 import Gallery from "./components/Gallery/Gallery";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Banner />
       <Feedback />
       <Gallery/>
+      <Footer/>
     </BrowserRouter>
   );
 }

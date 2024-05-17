@@ -3,6 +3,7 @@ import logo from "../../assets/logo.svg";
 import MenuIcon from "@mui/icons-material/Menu";
 import "./Navbar.scss";
 import { useLocation } from "react-router-dom";
+
 const Navbar = () => {
   const [expandbar, setExpandBar] = useState("false");
   const location = useLocation();
@@ -29,13 +30,13 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </div>
       <div className="navbar-open-icon">
-        <MenuIcon onClick={handleClick} style={{ color:"white" }} />
+        <MenuIcon onClick={handleClick} style={{ color: "white" }} />
       </div>
       <ul className={expandbar ? "navbar-list-mobile" : "navbar-list"}>
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>
-        <li >Contact</li>
+        <li>Contact</li>
       </ul>
     </nav>
   );
