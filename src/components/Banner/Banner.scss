@@ -92,7 +92,7 @@
     }
   }
 }
-@media mobile {
+@media (max-width:375px) {
   .Banner {
     &-section {
       display: flex;
