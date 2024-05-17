@@ -1,5 +1,6 @@
 import React from "react";
-// import logo from "../../assets/logo.svg";
+import "./Footer.scss";
+
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -8,21 +9,21 @@ import PinterestIcon from '@mui/icons-material/Pinterest';
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer__logo">
-        <h2>sunnyside</h2>
+      <div className="footer__heading">
+      <h2>sunnyside</h2>
       </div>
-      <div className="footer__nav">
-        <ul>
-          <li>About</li>
-          <li>Services</li>
-          <li>Projects</li>
+      <div>
+        <ul className="footer__nav">
+         <li className="footer__nav--list">About</li>
+         <li className="footer__nav--list">Services</li>
+         <li className="footer__nav--list">Contact</li>
         </ul>
       </div>
       <div className="footer__icons">
-        <FacebookIcon />
-        <InstagramIcon />
-        <TwitterIcon />
-        <PinterestIcon />
+        <div className="footer__icons--list"><FacebookIcon /></div>
+        <div className="footer__icons--list"><InstagramIcon /></div>
+        <div className="footer__icons--list"><TwitterIcon /></div>
+        <div className="footer__icons--list"><PinterestIcon /></div>
       </div>
     </div>
   );
