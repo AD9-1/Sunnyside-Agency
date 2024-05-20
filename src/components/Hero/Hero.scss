@@ -1,23 +1,28 @@
-.hero{
-  display:grid;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/global.scss" as *;
+@use "../../styles/partials/fonts" as *;
+.hero {
+  display: grid;
   grid-template-rows: auto auto;
   row-gap: 1rem;
   justify-content: center;
-  h1{
+  h1 {
     font-size: 45px;
     font-family: Fraunces;
     text-align: center;
     text-transform: uppercase;
-    color:white;
-    letter-spacing: 0.1em; 
+    color: white;
+    letter-spacing: 0.1em;
   }
-  &-image{
-    margin:auto;
+  &-image {
+    margin: auto;
   }
-  @media (max-width:375px) {
-    h1{
-        font-size: 50px;
-        text-align: center;
+  @include mobile {
+    h1 {
+      margin-top: 2rem;
+      font-size: 45px;
+      text-align: center;
     }
   }
 }
