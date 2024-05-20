@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Sunnyside-Agency/static/css/main.050a2a71.css",
+    "main.js": "/Sunnyside-Agency/static/js/main.a8dd28f5.js",
+    "static/js/453.c389af10.chunk.js": "/Sunnyside-Agency/static/js/453.c389af10.chunk.js",
+    "static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf": "/Sunnyside-Agency/static/media/Fraunces-VariableFont_SOFT,WONK,opsz,wght.c767db37f6648bd42213.ttf",
+    "static/media/Barlow-Medium.ttf": "/Sunnyside-Agency/static/media/Barlow-Medium.d4afdc134fc10b739bab.ttf",
+    "static/media/image-header.jpg": "/Sunnyside-Agency/static/media/image-header.9167cda0c72b56b2cda5.jpg",
+    "static/media/Fraunces_144pt_Soft-Black.ttf": "/Sunnyside-Agency/static/media/Fraunces_144pt_Soft-Black.10001618bddd482406bd.ttf",
+    "static/media/image-gallery-milkbottles.jpg": "/Sunnyside-Agency/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
+    "static/media/image-gallery-sugarcubes.jpg": "/Sunnyside-Agency/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
+    "static/media/image-gallery-orange.jpg": "/Sunnyside-Agency/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
+    "static/media/image-gallery-cone.jpg": "/Sunnyside-Agency/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
+    "static/media/image-graphic-design.jpg": "/Sunnyside-Agency/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/Sunnyside-Agency/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "static/media/logo.svg": "/Sunnyside-Agency/static/media/logo.4271b8992622e4dd1cc7de08466dab06.svg",
+    "index.html": "/Sunnyside-Agency/index.html",
+    "static/media/icon-arrow-down.svg": "/Sunnyside-Agency/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
+    "main.050a2a71.css.map": "/Sunnyside-Agency/static/css/main.050a2a71.css.map",
+    "main.a8dd28f5.js.map": "/Sunnyside-Agency/static/js/main.a8dd28f5.js.map",
+    "453.c389af10.chunk.js.map": "/Sunnyside-Agency/static/js/453.c389af10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.050a2a71.css",
+    "static/js/main.a8dd28f5.js"
+  ]
+}
