@@ -5,7 +5,7 @@
 .Banner {
   &-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     &-image1,
     &-image2,
     &-image3,
@@ -13,7 +13,8 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      height: 30rem;
+      height:30rem;
+     
     }
     &-image1 {
       background-image: url("../../assets/desktop/image-transform.jpg");
@@ -92,7 +93,7 @@
     }
   }
 }
-@media (max-width:375px) {
+@include mobile {
   .Banner {
     &-section {
       display: flex;

@@ -38,23 +38,24 @@
       }
     }
   }
-  @media (max-width: 375px) {
+ @include mobile {
     &-list {
       display: none;
 
       &-mobile {
-        width: 70%;
-        height: 50%;
+        width: 80%;
+        height: 40%;
         position: absolute;
-        background-color: rgb(230, 222, 222);
+        background-color: white;
         padding: 0;
-        top: 10%;
-        left: 15%;
+        top: 7%;
+        left: 10%;
         list-style: none;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        font-family: Barlow;
         li {
           padding: 0.5rem;
           &:hover {
