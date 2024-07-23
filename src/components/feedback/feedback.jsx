@@ -2,7 +2,7 @@ import React from "react";
 import Emilyimage from "../../assets/image-emily.jpg";
 import Thomasimage from "../../assets/image-thomas.jpg";
 import Jennieimage from "../../assets/image-jennie.jpg";
-import "./Feedback.scss";
+import "./feedback.scss";
 
 const feedback = () => {
   return (
