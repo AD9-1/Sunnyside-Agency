@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import "../src/styles/global.scss";
 import Banner from "./components/Banner/Banner";
-import feedback from "./components/feedback/feedback";
+import Feedback from "./components/feedback/Feedback";
 import Gallery from "./components/Gallery/Gallery";
 import Footer from "./components/Footer/Footer";
 
@@ -17,7 +17,7 @@ function App() {
         <Hero />
       </div>
       <Banner />
-      <feedback />
+      <Feedback />
       <Gallery/>
       <Footer/>
     </BrowserRouter>
