@@ -30,8 +30,8 @@
       justify-content: center;
       &-statement {
         text-align: center;
-        width: 60%;
-        padding-bottom: 3rem;
+        width: 70%;
+        padding-bottom: 2rem;
         h2 {
           font-family: Fraunces-Bold;
           color: $primary-cyan;
@@ -51,7 +51,7 @@
       &-statement {
         text-align: center;
         width: 60%;
-        padding-bottom: 3rem;
+       padding-bottom: 2rem;
         h2 {
           font-family: Fraunces-Bold;
           color: $dark-blue;
@@ -59,6 +59,7 @@
         p {
           font-family: Barlow;
           color: $dark-blue;
+          line-height: 1.5rem;
         }
       }
     }
@@ -81,12 +82,8 @@
       }
       .statement1:hover {
         text-decoration: underline 5px solid $yellow;
-
-        transition: 1s;
       }
       .statement2:hover {
-        transition: 1s;
-
         text-decoration: underline 5px solid $soft-red;
       }
     }
@@ -99,18 +96,19 @@
       flex-direction: column;
 
       &-statement {
-        padding: 3rem 1rem;
+        padding: 3rem 2rem;
         text-align: center;
         margin: auto;
-        line-height: 1.5rem;
+
         h2 {
           font-family: Fraunces-Bold;
           font-size: 36px;
         }
         p {
           font-family: Barlow;
-          color: $light-gray;
-          line-height: 1.5rem;
+          color: $gray;
+          line-height: 2rem;
+        
         }
         h3 {
           font-family: Fraunces-Bold;
@@ -120,7 +118,7 @@
       &-image4 {
         &-statement {
           width: auto;
-          padding: 0rem 1rem 4rem 1rem;
+          padding: 0rem 2rem 2rem 2rem;
         }
       }
     }

@@ -12,7 +12,7 @@ const Banner = () => {
             go fast.Engage your clients through compelling visuals that do most
             of the marketing for you.
           </p>
-          <h3 className="statement1">Learn More</h3>
+          <h3 className="statement1">LEARN MORE</h3>
         </div>
         <div className="Banner-section-image1"></div>
       </div>
@@ -26,7 +26,7 @@ const Banner = () => {
             photographers,videographers and copywriters,we'll build and extend
             your brand in digital places.
           </p>
-          <h3 className="statement2">Learn More</h3>
+          <h3 className="statement2">LEARN MORE</h3>
         </div>
       </div>
       <div className="Banner-section second">
