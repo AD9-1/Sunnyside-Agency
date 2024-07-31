@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  margin-left: 2rem;
   @media (max-width: 375px) {
     padding: 2rem;
   }
@@ -23,19 +23,18 @@
     flex: 0.8;
     justify-content: space-between;
     li {
-      padding: 0.5rem;
-      color: $white;
-      font-family: Barlow;
-      &:hover {
-        background-color: $white;
-        opacity: 0.5;
-        padding: 2rem;
-        text-transform: uppercase;
-        transition: 2s;
-        border-radius: 2rem;
-        color: $dark-blue;
-        font-family: Fraunces;
-      }
+      margin:1rem 1rem;
+      padding: 1rem;
+       color: $white;
+       font-family: Barlow;
+ 
+       &:hover {
+         background-color: $white;
+         text-transform: uppercase;
+         color: $dark-blue;
+         border-radius:2rem;
+         padding:1rem;
+       }
     }
   }
  @include mobile {
